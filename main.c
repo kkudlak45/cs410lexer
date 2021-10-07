@@ -13,8 +13,8 @@
 
 %}
 
-Junk [ \-;.,\n\r]
-Letters [^ \-,;\.\n\r]+
+Junk [ \-;.,\n\r"]
+Letters [^ "\-,;\.\n\r]+
 ChapterDelimeter _CHAPDELIM
 
 %%
