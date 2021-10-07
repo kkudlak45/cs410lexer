@@ -462,8 +462,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "main.lex"
-#line 2 "main.lex"
+#line 1 "KryzstofKudlakIndex.lex"
+#line 2 "KryzstofKudlakIndex.lex"
 
 	#include <string.h>
 
@@ -694,7 +694,7 @@ YY_DECL
 		}
 
 	{
-#line 20 "main.lex"
+#line 20 "KryzstofKudlakIndex.lex"
 
 
 #line 701 "lex.yy.c"
@@ -756,7 +756,7 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 22 "main.lex"
+#line 22 "KryzstofKudlakIndex.lex"
 {
 	for (int i = 0; i < 5; i++) {
 		insertWord("");
@@ -769,7 +769,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 32 "main.lex"
+#line 32 "KryzstofKudlakIndex.lex"
 {insertWord(yytext);
 
 	if (wordCount > 5) {
@@ -780,16 +780,16 @@ YY_RULE_SETUP
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 39 "main.lex"
+#line 39 "KryzstofKudlakIndex.lex"
 {}
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
-#line 41 "main.lex"
+#line 41 "KryzstofKudlakIndex.lex"
 {return 0;}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 43 "main.lex"
+#line 43 "KryzstofKudlakIndex.lex"
 ECHO;
 	YY_BREAK
 #line 796 "lex.yy.c"
@@ -1795,7 +1795,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 43 "main.lex"
+#line 43 "KryzstofKudlakIndex.lex"
 
 
 int yywrap(){}

@@ -1,3 +1,0 @@
-lex file.lex or file.l
-gcc file.yy.c (use -ll flag if some shit)
-./a.out

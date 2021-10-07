@@ -1,4 +1,5 @@
 # CS 410 - Icelandic Saga Parser
+Author: Kryzstof Kudlak
 
 ### Setup
 
